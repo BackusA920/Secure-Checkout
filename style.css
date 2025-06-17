@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f8f8;
+  color: #333;
+  margin: 0;
+  padding: 2rem;
+}
+
+.checkout-container {
+  max-width: 600px;
+  background: #fcfcfaa8;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cart-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.price {
+  font-weight: bold;
+  color: #007a34;
+}
+
+form {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+input[type="text"],
+input[type="month"] {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+label {
+  font-size: 0.9rem;
+}
+
+.shipping label {
+  display: block;
+  margin-top: 0.5rem;
+}
+
+.checkout-btn {
+  width: 100%;
+  padding: 1rem;
+  background-color: #007a34;
+  color: #fff;
+  border: none;
+  font-size: 1rem;
+  border-radius: 8px;
+  margin-top: 2rem;
+  cursor: pointer; 
+}
+
+.checkout-btn:hover {
+  background-color: #049e47;
+}
